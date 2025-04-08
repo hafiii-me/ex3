@@ -1,6 +1,6 @@
 # Ex03 Time Table
 ## Date:
-
+8-04-2025
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -24,9 +24,47 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Timetable</title>
+</head>
+<body>
+    <h1>Slot Timetable</h1>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>9:00 - 10:00</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Geography</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Art</td>
+        </tr>
+    </table>
+</body>
+</html>
 
 
 ## OUTPUT
+![Screenshot 2025-04-08 143422](https://github.com/user-attachments/assets/0f11623e-b40b-4749-9c15-45283b6c53f8)
 
 
 ## RESULT
